@@ -22,22 +22,14 @@ const eqArrays = function(actual, expected) {
   
   };
   
-  const letterPositions = function(sentence) {
-    const obj = {};
-    let index = 0;
-    for (let char of sentence) {
-      if (char !== " ") {
-        if (obj[char]) {
-          obj[char].push(index);
-        } else {
-          obj[char] = [index];
-        }
-      }
-      index += 1;
+  const words = ["ground", "control", "to", "major", "tom"];
+  const map = function(array, callback) {
+    const results = [];
+    for (let item of array) {
+      results.push(callback(item));
     }
-    return obj;
-  };
+    return results;
+  }
   
   
-   console.log(letterPositions("lighthouse in the house"));
-   console.log(assertArraysEqual(letterPositions("lighthouse in the house").h, [3,5,15,18]));
+  

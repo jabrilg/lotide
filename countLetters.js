@@ -19,7 +19,7 @@ const assertEqual = function(actual, expected) {
     }
     return obj;
   };
-  
+ 
   const testObject =countLetters ("lighthouse in the house")
  console.log (testObject.h)
  assertEqual (testObject.h ,4)
