@@ -13,7 +13,6 @@ module.exports = assertArraysEqual;
 
 
 
-// ACTUAL FUNCTION
 const middle = function(array) {
   let res = [];
   const len = array.length;

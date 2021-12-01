@@ -23,5 +23,4 @@ const assertEqual = function(actual, expected) {
   const testObject =countLetters ("lighthouse in the house")
  console.log (testObject.h)
  assertEqual (testObject.h ,4)
-  //  console.log(countLetters("lighthouse in the house"));
-//  console.log(countLetters("LHL"));
+  
