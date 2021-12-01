@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@jabrilg/lotide",
   "version": "1.0.0",
   "description": "",
   "main": "assertArraysEqual.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/jabrilg/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jabril Gadhane",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jabrilg/lotide/issues"
